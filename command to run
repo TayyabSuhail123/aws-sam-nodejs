@@ -1,3 +1,0 @@
-sudo sam local start-api --docker-network lambda-local --layer-cache-basedir .aws-sam/
-
-docker run -dit -v /var/run/docker.sock:/var/run/docker.sock -p 9000:8080  lambdaemulatior
